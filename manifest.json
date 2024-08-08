@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "SearXNG — Privacy Search Engine",
-  "version": "1.5",
-  "author": "Erghel",
+  "name": "SearXNG (priv.au) — Privacy Search Engine",
+  "version": "2024.7.15",
+  "author": "chrishazfun",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
@@ -19,10 +19,10 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "SearXNG",
-      "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "keyword": "@searxng, @searx, @sx, @privau",
+      "search_url": "https://priv.au/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://priv.au/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
